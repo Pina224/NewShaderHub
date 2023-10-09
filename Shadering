@@ -1,0 +1,279 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pina224/Shade-huf/main/sh4deHubV2')))()
+
+local Window = OrionLib:MakeWindow({Name = "Shade Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Shade Hub/s",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Shade Hub V3",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectShade132/Shade-Hub-V3/main/Shade%20Hub%20V3.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Shade Hub V2",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pina224/Shade-hu-bb-V2/main/lol"))()
+      		print("button pressed")
+  	end    
+})  
+
+Tab:AddButton({
+	Name = "Shade Hub Banisher",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pina224/Meow-Banisher/main/Banisher"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Miscellaneous",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Infinite yield",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Nameless admin",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+      		print("button pressed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Hats",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Limb's for Shade Hub:"
+})  
+
+local Section = Tab:AddSection({
+   Name = "5268710380,5316549755,5268555719,5316479641"
+
+})
+
+ local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+   Name = "Hat's for Divinity Glitcher V2:"
+
+})
+
+local Section = Tab:AddSection({
+   Name = "5268602207,5316479641,5699795428,5316539421"
+
+})
+
+ local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+   Name = "Hats for Banzai Bazooka:"
+
+})
+
+local Section = Tab:AddSection({
+   Name = "4466171123"
+
+})
+
+ local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+   Name = "Hats for Moony Glitcher:"
+
+})
+
+local Section = Tab:AddSection({
+   Name = "5316556735, 7583370812"
+
+})
+
+ local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+   Name = "Hats for Studio Dummy V3:"
+
+})
+
+local Section = Tab:AddSection({
+   Name = "14517058046"
+
+})
+
+ local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+   Name = "Hats for Motorcycle:"
+
+})
+
+local Section = Tab:AddSection({
+   Name = "11354413365"
+
+})
+
+ local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+   Name = "Hats for Blade Glitcher:"
+
+})
+
+local Section = Tab:AddSection({
+   Name = "7960950996,9730942837,9730945610,9773712904,9773715840"
+
+})
+
+
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Update Logs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "V: 1.3   New script in Shade Hub v3! Fantasy Ban Hammer,"
+ 
+})
+
+   local Section = Tab:AddSection({
+      Name = "            Doom Slayer, and Achromatic has been released!"
+
+})
+
+  local Section = Tab:AddSection({
+      Name = "            Hats are in the Hats tab."
+
+})
+
+   local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+
+
+local Section = Tab:AddSection({
+	Name = "V: 1.2   Shade Hub V3 has been released, go and use it."
+ 
+}) 
+
+   local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+	Name = "V: 1.1     New GUI, isn't it amazing?"
+ 
+}) 
+
+   local Section = Tab:AddSection({
+      Name = "           "
+
+})
+
+local Section = Tab:AddSection({
+	Name = "V: 1.0    New script added to Shade Hub V2, check it out!"
+ 
+})  
+  
+   local Section = Tab:AddSection({
+      Name = "             Hats will be in the Hats Tab."
+
+})
+
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddDropdown({
+	Name = "Credits",
+	Default = "MyWorld",
+	Options = {"Chip (Shade Hub V2 Maker)","MeowldarkXD (Created the Hub)", "Maximilito (Animator)", "MyWorld (PatchmaHub Maker/Helper)"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+--Tab:AddParagraph("Hats","Hats are in the discord (https://discord.gg/PffRqJDf6Y)")
+
+Tab:AddButton({
+	Name = "Destroy gui",
+	Callback = function()
+		OrionLib:Destroy()
+      		print("button pressed")
+  	end    
+})
+
+OrionLib:Init()
